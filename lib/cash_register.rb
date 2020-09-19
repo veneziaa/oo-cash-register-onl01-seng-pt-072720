@@ -38,3 +38,5 @@ class CashRegister
     self.total = self.total - @last_item
   end 
 end 
+
+list = CashRegister.new(20) 
