@@ -34,7 +34,10 @@ class CashRegister
 
 
    def void_last_transaction
-    self.total = self.total - self.last_transaction
-  end
-end
+  
+  end 
+  
+end 
 
+tester = CashRegister.new 
+tester.add_item(4, "carrots", 4)
